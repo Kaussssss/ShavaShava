@@ -4,7 +4,7 @@ public class NaturalNumber {
         Scanner scanner = new Scanner(System.in);
         int sum = 0;
         System.out.print("Enter one number : ");
-        int number = scanner.nextInt();
+        double number = scanner.nextDouble();
         if( number >= 0 && number == (int)number){
             for(int i = 1; i<=number ;i++){
                 sum = sum + i;
@@ -12,7 +12,7 @@ public class NaturalNumber {
             System.out.print("The sum of " + number + " natural numbers is => " + sum +"\n");
         }
         else{
-            System.out.print("The number" + number + " is not a natural number");
+            System.out.print("The number " + number + " is not a natural number");
         }
     }
 }
